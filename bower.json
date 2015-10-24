@@ -1,0 +1,22 @@
+{
+  "name": "Test4MLSDev",
+  "description": "Test task for MLSDev",
+  "authors": [
+    "Andrew Grunsky"
+  ],
+  "license": "CC",
+  "homepage": "https://github.com/andrey1hub/test4mlsdev",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-animate": "~1.4.7"
+  }
+}

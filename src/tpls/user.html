@@ -1,0 +1,20 @@
+<div class="user-info">
+	<div class="b">
+		<div class="pic">
+			<img src="https://avatars.githubusercontent.com/u/{{id}}?v=3">
+		</div>
+		<div class="info">
+			<div class="wrap">
+				<p><b>Login:</b> {{login}}</p>
+				<p ng-if="email"><b>E-mail:</b> {{email}}</p>
+				<p ng-if="name"><b>Full name:</b> {{name}}</p>
+				<p ng-if="repos.length">
+					<b>Repos:</b>
+					<ul>
+						<li ng-repeat="repo in repos"><a href="#/users/{{repo.owner.login}}/{{repo.name}}">{{repo.name}}</a></li>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

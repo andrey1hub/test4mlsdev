@@ -1,0 +1,16 @@
+<div class="repo">
+	<div class="info">
+		<div class="wrap">
+			<p><b>Login:</b> {{login}}</p>
+			<p><b>Branches:</b></p>
+			<ul class="b">
+				<li ng-repeat="branch in branches">{{branch.name}}</li>
+			</ul>
+			<!--p><b>Commits:</b></p>
+			<ul class="b">
+				<li ng-repeat="commit in commits" class="commit">{{commit.sha}}</li>
+			</ul-->
+			<p><a href="#/users/{{login}}/{{name}}/commits">Commits</a></p>
+		</div>
+	</div>
+</div>

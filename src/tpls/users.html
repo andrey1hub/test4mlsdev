@@ -1,0 +1,10 @@
+<div class="users b">
+	<div ng-repeat="user in users" class="user">
+		<div class="tile">
+			<a href="#/users/{{user.login}}"><img src="https://avatars.githubusercontent.com/u/{{user.id}}?v=3"></a>
+			<span>{{user.login}}</span>
+			<span ng-if="user.email">{{user.email}}</span>
+			<span ng-if="!user.email">&nbsp;</span>
+		</div>
+	</div>
+</div>
